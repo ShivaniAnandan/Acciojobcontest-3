@@ -1,0 +1,36 @@
+span{
+    padding: 20px;
+}
+.bootstrap{
+    padding-left: 300px;
+    padding-right: 300px;
+    
+}
+h4{
+    margin-top: 5px;
+}
+p{
+    justify-content: space-around;
+}
+.card{
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+}
+th, td{
+    border:none;
+    padding: 25px;
+    }
+table{
+    padding: 20px;
+}
+@media screen and (max-width : 600px) {
+   .bootstrap{
+    display:flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+   }
+}
+
+
+
